@@ -1,5 +1,4 @@
 import React, {useEffect, useState} from 'react';
-import {StyleSheet} from 'react-native';
 import {Provider} from 'react-redux';
 import store from './src/store';
 import {NavigationContainer} from '@react-navigation/native';
@@ -46,9 +45,3 @@ const App = () => {
 };
 
 export default App;
-
-// <ScrollView contentInsetAdjustmentBehavior="automatic">
-//   <View>
-//     <Text>Test</Text>
-//   </View>
-// </ScrollView>
